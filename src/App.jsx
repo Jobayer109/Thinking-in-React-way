@@ -40,7 +40,16 @@ function App() {
       </div>
       <div className="horizontal__line"></div>
       <div>
-        <p>People who are linked:</p>
+        <p>People who are linked</p>
+        {task.comments.map((comment) => (
+          <div key={comment.id}>
+            <img src={comment.avatar} />
+            <h5>{comment.user}</h5>
+            <p>
+              <small>{comment.text}</small>
+            </p>
+          </div>
+        ))}
       </div>
     </div>
   );

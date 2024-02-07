@@ -27,7 +27,7 @@ const task = {
       avatar: "https://avatars.githubusercontent.com/u/108192726?v=4",
       user: "Jobayer",
       status: "Done",
-      text: "uhwdw wdhhwoiqqw qwhwohoiqwed wqhwwed wnkjcds ahduds jadbc  jsbd sahb",
+      text: "I'm enthusiastic about open-source contributions and eager to collaborate on innovative projects.",
     },
   ],
   tasks: [
