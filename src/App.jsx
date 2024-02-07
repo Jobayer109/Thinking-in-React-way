@@ -29,6 +29,19 @@ function App() {
         </h3>
         <p>{task.subtitle}</p>
       </div>
+      <div>
+        <ul>
+          {task.tags.map((tag) => (
+            <li key={tag.id}>
+              <small>{tag.icon}</small> - <p>{tag.text}</p>
+            </li>
+          ))}
+        </ul>
+      </div>
+      <div className="horizontal__line"></div>
+      <div>
+        <p>People who are linked:</p>
+      </div>
     </div>
   );
 }
